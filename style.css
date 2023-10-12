@@ -1,0 +1,508 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:  "Dhurjati";
+    border-style: none;
+}
+
+main{
+
+    
+}
+
+.main_nav{
+    position: relative;
+    top:0;
+    width:100%;
+    height: 60px;
+    background:linear-gradient(90deg, rgba(0, 81, 106) -15.17%, rgba(0, 62, 82) 5.8%, rgba(0, 23, 30) 93.75%);
+    padding:1% 3%;
+    border-radius: 2px 2px 5px 5px;
+    font-family: "dhujati";
+    
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main_nav a{
+    text-decoration: none;
+    color:#fff;
+    font-family:'Dhurjati';
+    
+}
+
+.right_items{
+    display: flex;
+    gap:30px;
+    margin-top: 5px;
+}
+
+.left_items {
+    display: flex;
+    padding-bottom: 30px;
+    width:30%;
+    height:90%;
+}
+
+.logo{
+    height:100%;
+    width: 100%;
+    font-size: 27px;
+}
+
+.main_display{
+    padding: 50px;
+    height: 736px;
+    background: linear-gradient(39deg, #02AECF 22.36%, #0B0011 71.1%);
+}
+
+.cards h1{
+    font-size: 50px;
+  font-weight: bold 500;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.cards h3{
+    font-size: 30px;
+  font-weight: lighter;
+  line-height: 2rem;
+  color: #fff;
+}
+
+.main_display{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: center;
+    align-items: center;
+    padding:25px 45px 50px;
+    gap:90px
+}
+
+.main_display img{
+    grid-column: 2/2;
+    grid-row:1/2;
+    /* height:100%; */
+    width:100%;
+}
+
+ .latest_updates{
+    position:relative;
+    display: inline-flex;
+    width:100%;
+    height: fit-content; 
+    flex-shrink: 0;
+    border: 4px solid #FFB320;
+}
+
+.label{
+    padding:0% 5%;
+    background-color: #FFB320;;
+    width:fit-content;
+    height: fit-content;
+    
+    
+}
+
+.label h1{
+    padding-top: 10%;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.info_cards{
+    /* position: relative; */
+    width: 100%;
+    background:url("/public/images/main-highlights-background.png"), lightgray 50% / cover no-repeat;
+}
+
+.info_card_1,
+.info_card_2,
+.info_card_3,
+.info_card_4{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: center;
+    align-items: center;
+    padding:35px 55px 60px;
+    gap:95px;
+    /* margin-top: 5rem; */
+    line-height: normal;
+    
+}
+
+.info_card_1 img,
+.info_card_3 img{
+    grid-column: 1/2;
+    grid-row:1/2;
+    /* height:100%; */
+    width:80%;
+    height: 300px;
+}
+
+.info_card_2 img,
+.info_card_4 img{
+    grid-column: 2/2;
+    grid-row:1/2;
+    /* height:100%; */
+    width:90%;
+    height: 300px;
+}
+
+.notice_board{
+    width: 100%;
+    height: 800px;
+    background: #0B0011;
+    padding-top: 50px;
+    
+}
+
+.notice{
+    background-color: #05010E;
+    height:75%;
+    width: 90%;
+    padding:20px;
+    position: relative;
+    left: 5%;
+    right:5%;
+    border-radius: 10px;
+    border: #FFB320 solid;
+}
+
+.notice h1{
+    color: #FFB320;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 64px;
+    font-weight: 400;
+}
+.main_links ul{
+    position: absolute;
+    list-style:circle;
+}
+
+.main_links li,
+.main_links a{
+    color: #00A11A;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 2.6rem;
+    font-display:inherit;
+    letter-spacing: 100%;
+    width: 100%;
+
+}
+.main_links span{
+    color: #73BBC9;
+    
+}
+
+.main_links{
+    height:100%;
+    width: 100%;
+    padding:2% 5%;
+}
+
+.blog_window{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 1000px;
+    color: #FFF;
+    /* margin-top: 2rem; */
+    background: linear-gradient(180deg, #020000 50%, #09001B 64.27%, #013843 70.59%, #0087A1 76.53%);
+
+}
+
+.blog_title{
+    position:relative;
+    top:100px;
+    /* left:25%; */
+    text-align: center;
+    line-height: 2.9rem;
+}
+
+.blog_title h1{
+    position: relative;
+    color: #FFF;
+text-align: center;
+font-family: Dhurjati;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blog_title h4{
+    position: relative;
+    color: #FFF;
+text-align: center;
+font-family: Dhurjati;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blog_cards{
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    position: relative;
+    width: 20%;
+    height: 515px;
+    top: 200px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #FFB320;
+    background: #FFF;
+}
+
+.card img{
+    position: relative;
+    width:100%;
+    height:50%;
+    border-radius: 20px 20px 0px;
+}
+
+.card h2{
+    color: #000;
+    padding:3%;
+font-family: Dhurjati;
+font-size: 17px;
+
+font-style: normal;
+font-weight: 400;
+line-height: 150.557%; 
+}
+
+.card button{
+   position: relative;
+   left:25%;
+   bottom: 5%;
+
+
+}
+
+.viewall_btn {
+    position: relative;
+   top:25%;
+ 
+   left:45%;
+  
+}
+
+.viewall{
+    position: relative;
+    color: #FFF;
+text-align: center;
+font-family: Dhurjati;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 15px;
+border: 1px solid #000;
+background: #FFB320;
+padding:10px
+
+}
+
+.the_team{
+    /* position: relative; */
+    height: fit-content;
+     /* top:9000px;  */
+    width:100%;
+    border-top: 7px solid rgb(0, 146, 153);
+    background: #0387a1;
+    padding: 5% 3%;
+}
+
+.team_dis{
+    position: relative;
+    display:inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding:35px 55px 60px;
+    gap:9rem;
+    /* margin-top: 5rem; */
+    line-height: normal;
+}
+
+.team_dis img{
+    grid-column: 2/2;
+    grid-row:1/2;
+    /* height:100%; */
+    width:80%;
+    height: 300px;
+}
+
+.description h1{
+    color: #FFF;
+font-family: Dhurjati;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 150.557%; /* 144.535px */
+}
+
+.description h4{
+    color: #FFF;
+font-family: Dhurjati;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 124.557%; /* 44.841px */
+}
+
+.subscribe{
+    width: 100%;
+    height: fit-content;
+    background-color: #73BBC9; 
+    border-top: 4px solid #FFB320;
+border-bottom: 4px solid #FFB320;
+} 
+
+ .sub_items{
+    position: relative;
+    padding:5% 3%;
+    line-height: 5rem;
+}
+
+.sub_title h1{
+    color: #000;
+/* text-align: center; */
+font-family: Dhurjati;
+font-size: 76px;
+font-style: normal;
+font-weight: 400;
+/* line-height: 112.557%;108.055px */
+}
+
+.sub_title h4{
+    color: #000;
+font-family: Dhurjati;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+/* line-height: 112.557%; 54.028px */
+}
+
+.input{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.input input{
+    width:423px;
+    height: 55px;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px black solid;
+}
+
+.input button{
+    height: 55px;
+    width: fit-content;
+    padding:20px;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px black solid;
+    background-color: #FFB320;
+}
+
+footer{
+    background-color: #000;
+    width:100%;
+    height: fit-content;
+}
+
+.footer_title{
+    color: #FFB320;
+    padding-top: 15px;
+}
+
+.footer_top{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding:1% 4%;
+}
+
+.social_logos{
+    display: inline-flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.social_logos .a{
+    padding-top: 10px;
+    /* top:-10px */
+}
+
+.links{
+    padding: 3% 5%;
+    color:#73BBC9;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:10rem;
+    text-align: center;
+}
+
+.links li{
+    list-style: none;
+    line-height: 3rem;
+    font-size: 25px;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    font-family: Dhurjati;
+
+}
+
+.footer_foot{
+    text-align: center;
+    color:#FFB320;
+    padding: 2%;
+    font-family: Dangrek;
+    font-size: 20px;
+}
+
+.read_more,
+.read_more1{
+    width:130px;
+    height: fit-content;
+    padding:1.5%;
+    margin-top: 10px;
+    border-radius: 15px;
+border: 1px solid #000;
+background: #FFB320;
+color: #FFF;
+text-align: center;
+font-family: Dhurjati;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

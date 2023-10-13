@@ -123,7 +123,9 @@ main{
 .info_cards{
     /* position: relative; */
     width: 100%;
-    background:url("/public/images/main-highlights-background.png"), lightgray 50% / cover no-repeat;
+/*     background:url("/public/images/main-highlights-background.png"), lightgray 50% / cover no-repeat; */
+    background: rgb(12,163,192);
+background: linear-gradient(143deg, rgba(12,163,192,1) 31%, rgba(3,12,26,1) 83%, rgba(0,0,0,1) 92%);
 }
 
 .info_card_1,
